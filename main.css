@@ -1,0 +1,101 @@
+/* Core styles */
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(./static/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Poppins';
+    src: url(./Poppins/Poppins-SemiBold.ttf);
+}
+
+body {
+    background-image: url('./images/bg-desktop.png');
+    background-color: #674baf;
+}
+
+/* Main section */
+
+main {
+    margin: 2rem;
+}
+
+.content {
+    margin: 2rem 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.illust {
+    flex: 1;
+}
+
+.illust img {
+    max-width: 100%;
+}
+
+.text {
+    flex: 1;
+}
+
+.text {
+    color: white;
+}
+
+.text h1 {
+    margin: auto;
+    line-height: 1.5;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.text p {
+    margin: 1.5rem 0 1rem 0;
+    line-height: 1.7;
+    font-family: 'Open Sans';
+}
+
+.btn {
+    border-radius: 48px;
+    font-family: 'Open Sans';
+    padding: 1rem 4rem;
+    font-size: 1.2rem;
+    background-color: white;
+    color: #674baf;
+    border: none;
+    box-shadow: 0 0.2rem 0.5rem 0.1rem #333;
+}
+
+/* Footer section */
+
+footer {
+    margin:0 0;
+  
+}
+
+ul {
+    float: right;
+    margin-right: 50px;
+}
+
+ul li {
+    margin: 0 10px;
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(225, 89, 134);
+}
