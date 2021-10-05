@@ -60,7 +60,7 @@ main {
 .text p {
     margin: 1.5rem 0 1rem 0;
     line-height: 1.7;
-    font-family: 'Open Sans';
+    font-family: 'poppins';
 }
 
 .btn {
@@ -72,6 +72,8 @@ main {
     color: #674baf;
     border: none;
     box-shadow: 0 0.2rem 0.5rem 0.1rem #333;
+    font-family:'poppins';
+    cursor:pointer;
 }
 
 /* Footer section */
