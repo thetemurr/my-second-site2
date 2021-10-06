@@ -101,3 +101,67 @@ ul li {
 li:hover {
     color: rgb(225, 89, 134);
 }
+
+/* Responsive styles */
+@media only screen and (max-width:576px) {
+    
+    body {
+        font-family: 'poppins';
+        margin: 0;
+        padding: 0;
+        background-image: url('./images/bg-mobile.png');
+    }
+    
+    main img {
+        width: 180px;
+    }
+
+    .content {
+        display: inline-block;
+    }
+    
+    .illust {
+        width: 100%;
+    }
+    
+    .illust img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .text p {
+        font-size: 15px;
+        margin-top: 15px;
+        font-weight: 300;
+    }
+
+    .btn {
+        margin-top: 15px;
+        width: 65%;
+        padding: 10px 15px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+    ul li {
+       display: inline-block;
+       padding: 0;
+       margin: 5px;
+    }
+
+}
+
